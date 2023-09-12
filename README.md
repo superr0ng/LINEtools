@@ -16,13 +16,14 @@
         pip install bs4 
 
 4. 到LINE Notify取得權杖。[教學連結](https://blog.mrat.io/%E5%A6%82%E4%BD%95%E7%94%B3%E8%AB%8Bline%E6%AC%8A%E6%9D%96%E6%8F%90%E4%BE%9B%E7%A8%8B%E5%BC%8F%E4%BA%A4%E6%98%93%E6%8E%A5%E6%94%B6%E5%8D%B3%E6%99%82%E8%A8%8A%E6%81%AF/)
-5. 利用文字編輯器將程式打開，並將取得權杖貼入myToken中。
+5. 將Line Notify 邀請至群組中。
+6. 利用文字編輯器將程式打開，並將取得權杖貼入myToken中。
 
         8) myToken = ["replace_this_with_your_own_token"]
-6. 輸入搭配圖片傳送的訊息msg中的內容，預設是「親愛的朋友早安，祝福你有美好的一天。」
+7. 輸入搭配圖片傳送的訊息msg中的內容，預設是「親愛的朋友早安，祝福你有美好的一天。」
         
         42) lineNotify(token = token, msg = '親愛的朋友早安，祝福你有美好的一天。', picURI='./temp.jpg')
-7. 執行程式，在terminal或cmd中輸入：
+8. 執行程式，在terminal或cmd中輸入：
         
         python hello_my_friend.py
     Mac系統請改輸入：
