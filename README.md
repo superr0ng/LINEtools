@@ -9,7 +9,7 @@
 
 執行結果：
 
-<img src="https://github.com/superr0ng/LINEtools/blob/main/greeting_demo.jpeg" alt="Demo picture" width="200"/>
+<img src="https://github.com/superr0ng/LINEtools/blob/main/greeting_demo.jpeg" alt="Demo picture" width="300"/>
 
 ## 使用說明
 1. 安裝python。[教學連結](https://www.codingspace.school/blog/2021-04-07)
