@@ -7,7 +7,8 @@
 
 本程式利用requests和BeautifulSoup等套件實作網路爬蟲，搜尋當中的img標籤從中找尋圖片的url，並隨機選取一張下載到目前工作資料夾中，在利用LINE Notify的功能將預設訊息以及圖片傳送到指定的聊天室。(注意：因為下載的照片會取名為temp.jpg，請確保程式所在的資料夾並沒有此一檔案。)
 
-結果：
+執行結果：
+
 <img src="https://github.com/superr0ng/LINEtools/blob/main/greeting_demo.jpeg" alt="Demo picture" width="200"/>
 
 ## 使用說明
