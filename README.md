@@ -6,6 +6,9 @@
 擁有這些困擾的人們你們有福了，只要執行這個程式，他就會自動從[👴長輩圖大全【早安區】](https://chunting.me/elder-photos-good-morning/#google_vignette)隨機下載一張照片，並且將此照片以及問候訊息傳送給所有你希望收到的人。再搭配工作排程的功能，就可以不求人每天時間到了自動幫你傳早安圖給朋友們。
 
 本程式利用requests和BeautifulSoup等套件實作網路爬蟲，搜尋當中的img標籤從中找尋圖片的url，並隨機選取一張下載到目前工作資料夾中，在利用LINE Notify的功能將預設訊息以及圖片傳送到指定的聊天室。(注意：因為下載的照片會取名為temp.jpg，請確保程式所在的資料夾並沒有此一檔案。)
+
+結果：
+![](https://github.com/superr0ng/LINEtools/blob/main/greeting_demo.jpeg)
 ## 使用說明
 1. 安裝python。[教學連結](https://www.codingspace.school/blog/2021-04-07)
 2. 安裝pip。[教學連結](https://www.maxlist.xyz/2019/07/13/pip-install-python/)
